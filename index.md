@@ -10,8 +10,8 @@
         var ifm = document.getElementById("room");
         ifm.height = document.documentElement.clientHeight;
         ifm.width = document.documentElement.clientWidth;
-        if (ifm.weight > 615)
-            ifm.weight = 615;
+        if (ifm.width > 615)
+            ifm.width = 615;
     }
     window.onresize() = function()
     {
@@ -19,7 +19,7 @@
     }
 </script>
 
-<button onclick="changeFrameSize()"><p>我保证不发布广告、无意义或法律禁止发布的内容，展开聊天框</p></button>
+<button onclick="changeFrameSize()">我保证不发布广告、无意义或法律禁止发布的内容，展开聊天框</button>
 
 <iframe src="https://hack.chat/?heyc-home-chatroom-channel" frameborder="0" height="0" width="0" id="room">这个浏览器好像不支持聊天室哦，换个浏览器试试吧！</iframe>
 
